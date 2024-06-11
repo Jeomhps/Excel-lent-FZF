@@ -36,14 +36,14 @@ Excel-lent FZF is a fuzzy finder tool for quickly locating and executing Excel m
    - To do this, right-click on the `Modules` folder in the VBA editor, select `Import File`, and choose the `.bas`file.
 
 5. **Add Code Modules:**
-   - Ensure that you have "Microsoft Visual Basic for Applications Extensibility 5.3" checked in the tools -> references window, if not enable it.
+   - Ensure that you have "Microsoft Visual Basic for Applications Extensibility 5.3" checked in the `tools -> references` window, if not enable it.
 
    ![references](images/references.png)
 
 ### Usage
 
 1. **Open the Form:**
-   - To open the Fuzzy Finder form, run the `ShowExcellentFZF` macro. You can either run the macro by hand or press**`Ctrl` + `Shift` + `M`**
+   - To open the Fuzzy Finder form, run the `ShowExcellentFZF` macro. You can either run the macro by hand or press **`Ctrl` + `Shift` + `M`**
 
 2. **Search for Macros:**
    - Type the name of the macro you are looking for in the ComboBox. The list will filter in real-time to match your input.
