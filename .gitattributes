@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# VBA extensions - Don't perform LF normalization to avoid issues when downloading raw files. 
+*.bas    -text
+*.cls    -text
+*.frm    -text
