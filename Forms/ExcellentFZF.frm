@@ -1,14 +1,12 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} ExcellentFZF 
    Caption         =   "ExcellentFZF"
-   ClientHeight    =   2445
-   ClientLeft      =   105
-   ClientTop       =   1455
-   ClientWidth     =   4590
+   ClientHeight    =   3036
+   ClientLeft      =   108
+   ClientTop       =   456
+   ClientWidth     =   4584
    OleObjectBlob   =   "ExcellentFZF.frx":0000
-   StartUpPosition =   2  'CenterScreen
-   WhatsThisButton =   -1  'True
-   WhatsThisHelp   =   -1  'True
+   StartUpPosition =   1  'CenterOwner
 End
 Attribute VB_Name = "ExcellentFZF"
 Attribute VB_GlobalNameSpace = False
@@ -252,4 +250,3 @@ Private Function JaroWinkler(s1 As String, s2 As String) As Double
     p = 0.1 ' Scaling factor
     JaroWinkler = JaroWinkler + l * p * (1 - JaroWinkler)
 End Function
-
