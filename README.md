@@ -7,7 +7,7 @@ Excel-lent FZF is a fuzzy finder tool for quickly locating and executing Excel m
 
 ## Features
 
-- **Dynamic Macro Listing:** Automatically lists all available macros in the workbook and personal.xlsb workbook.
+- **Dynamic Macro Listing:** Automatically lists all available macros in the workbook or personal.xlsb workbook.
 - **Real-Time Filtering:** Provides real-time filtering of macros as you type in the search box.
 - **User-Friendly Interface:** Easy-to-use form with ComboBox and ListBox controls for selecting macros.
 
